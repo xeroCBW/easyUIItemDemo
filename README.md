@@ -34,6 +34,7 @@ easyUI做的demo
 1. 静态文件访问不到,有两种方法,一种是在web.xml中定义;另外一种是在spring.xml中定义;我使用spring.xml没有成功,用的是web.xml配置(可以看项目,我就不贴代码了)
 2. 返回json报406 错误,这个是引用的jackson;可以看下pom文件
 3. 设置拦截用的是"/",所有的请求会被拦截;/jsp/index.jsp中会有item-list这个访问,为了不被拦截,写了个showpage方法
+4. mapper.xml放到resource文件夹下,否者又是很多坑
 
 ### 总结
 1. pom文件不要轻易去改,中间有各种坑,还是先把功能完成,再去慢慢优化吧,否者一直填坑,心好累
