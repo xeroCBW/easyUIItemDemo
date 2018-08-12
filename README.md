@@ -1,4 +1,4 @@
-# easyUIItemDemo
+﻿# easyUIItemDemo
 easyUI做的demo
 
 #### 使用步骤
@@ -49,5 +49,6 @@ easyUI做的demo
 [权限管理](https://gitee.com/huanghaijun2018/easyui-rbac)
 [UI模板](https://yun.baidu.com/s/1eQe1ACE)
 [CustomerManagement](https://github.com/codingXiaxw/CustomerManagement)
+[Interceptor和session登录登出](https://blog.csdn.net/u013147600/article/details/47725699)
 
 
