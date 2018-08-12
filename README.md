@@ -9,7 +9,7 @@ easyUI做的demo
 2. 选择项目,右键run --> maven build --> goal,填写 (clean tomcat7:run)
 3. 运行成功后访问localhost:8090
 4 enjoy...
-2. xuan使用run 
+
 
 
 ### 项目说明
