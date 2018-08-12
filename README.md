@@ -8,7 +8,7 @@ easyUI做的demo
 1. 将resource下的jdbc.properties数据库换成自己的(用单元测试service是否配置成功,成功之后,可以试下pageHelp(分页插件,mybatis版本需要3.2以上)单元测试)
 2. 选择项目,右键run --> maven build --> goal,填写 (clean tomcat7:run)
 3. 运行成功后访问localhost:8090
-4 enjoy...
+4. enjoy...
 
 
 
