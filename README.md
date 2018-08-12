@@ -4,7 +4,7 @@ easyUI做的demo
 #### 使用步骤
 
 
-
+0. 运行resource下的sql脚本
 1. 将resource下的jdbc.properties数据库换成自己的(用单元测试service是否配置成功,成功之后,可以试下pageHelp(分页插件,mybatis版本需要3.2以上)单元测试)
 2. 选择项目,右键run --> maven build --> goal,填写 (clean tomcat7:run)
 3. 运行成功后访问localhost:8090
@@ -27,6 +27,8 @@ easyUI做的demo
    也可以用最简单的判断session中有没有自己给的一个字段(例如用户名)
    定义一个interpretor(没有字段就到登录页面,代码有写,自己为了调试干掉了)
    退出登录,将session置为invalid
+5. 验证码没有做,思路将验证码放在session中,来进行判断
+6. 权限控制没有做,权限控制用数据库控制不同的url
 
 
 **2. 遇到的坑:**
@@ -40,3 +42,12 @@ easyUI做的demo
 1. pom文件不要轻易去改,中间有各种坑,还是先把功能完成,再去慢慢优化吧,否者一直填坑,心好累
 2. 自己的前端业务水平实在很低,先使用别人写好的模板入门,在慢慢拆开分解吧,不要自己一上来就搞起;效率太低
 3. mybatis半自动工具很好用,有需要的可以用下,使用方法见另外[一个项目](https://github.com/xeroCBW/mybatisTool.git)(貌似我这个还不怎么好,有更好的,大家可以去搜下,我的将就着用,还不错)
+4. jsp没有那么恐怖,就将html放到jsp中而已,如果要动态使用jsp语法
+### 参考文档
+
+
+[权限管理](https://gitee.com/huanghaijun2018/easyui-rbac)
+[UI模板](https://yun.baidu.com/s/1eQe1ACE)
+[CustomerManagement](https://github.com/codingXiaxw/CustomerManagement)
+
+
